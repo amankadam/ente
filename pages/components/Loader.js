@@ -3,19 +3,20 @@ import ContentLoader from 'react-content-loader'
 
 const Loader = props => {
   const rows = 2
-  const columns = 5
+  const columns = 6
   const coverHeight = 275
-  const coverWidth = 235
+  const coverWidth = 210
   const padding = 10
   const speed = 1
 
   const coverHeightWithPadding = coverHeight + padding
   const coverWidthWithPadding = coverWidth + padding
-  const initial = 5
+  const initial = 6
   const covers = Array(columns * rows).fill(1)
 
   return (
     <ContentLoader
+    style={{marginLeft:'05px'}}
       speed={speed}
       width={columns * coverWidthWithPadding}
       height={rows * coverHeightWithPadding}

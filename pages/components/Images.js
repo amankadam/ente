@@ -23,6 +23,8 @@ function Image(props) {
         key={key}
         index={index}
         photo={photo}
+        
+        alt={photo.title}
       />
     ),
   );
