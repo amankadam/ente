@@ -24,6 +24,11 @@
     width: 1340px;
   }
 }
+@media (max-width:480px){
+  .main{
+    width: 100%;
+  }
+}
 
 
 .heading{

@@ -11,3 +11,9 @@
 .imageTile:hover{
     opacity: 0.6;
 }
+@media (max-width:480px){
+    .imageTile{
+
+        width: 175px;
+    }
+}
