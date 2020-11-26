@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>etne.io</title>
+        <title>ente.io</title>
         <link rel="icon" href="/icon.png" />
       </Head>
       <nav className={styles.navbar}>
         <img src={"/icon.png"} className={styles.logo}/>
-        <h1 className={styles.heading}>Etne.io</h1>
+        <h1 className={styles.heading}>Ente.io</h1>
         </nav> 
       <main className={styles.main}>
           <ImageContainer/>
