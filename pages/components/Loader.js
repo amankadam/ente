@@ -3,11 +3,11 @@ import ContentLoader from 'react-content-loader'
 
 const Loader = props => {
   const rows = 2
-  const columns = 6
+  const columns = 4
   const coverHeight = 275
-  const coverWidth = 210
+  const coverWidth = 320
   const padding = 10
-  const speed = 1
+  const speed = 0.8
 
   const coverHeightWithPadding = coverHeight + padding
   const coverWidthWithPadding = coverWidth + padding

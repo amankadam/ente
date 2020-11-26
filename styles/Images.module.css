@@ -1,6 +1,6 @@
 .imageTile{
     cursor:pointer;
-    width:210px;
+    width:310px;
     height:275px;
     margin-left:8px;
     margin-bottom: 8px;
@@ -14,6 +14,6 @@
 @media (max-width:480px){
     .imageTile{
 
-        width: 175px;
+        width: 380px;
     }
 }
